@@ -1,0 +1,73 @@
+body, body * {
+    font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+}
+
+/* this affects every element in the body and the body itself */
+/* OR just */
+* {
+    font-family: Verdana, Tahoma, "Trebuchet MS", "DejuVu Sans", "Bitstream Vera Sans", sans-serif;
+}
+
+/* this affects every element */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.month-block {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    text-align: center;
+}
+
+.month-name {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.days-of-week {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(121, 121, 121);
+}
+
+.day-of-week {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.days-of-month {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    font-size: 13px;
+}
+
+.week-of-month {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day-of-month {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
